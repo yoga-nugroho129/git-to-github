@@ -1,3 +1,23 @@
 body {
+    background: #eaeaea;
     font-family: tahoma;
+}
+
+.container {
+    width: 70vw;
+    margin: 20px auto;
+    background: white;
+    line-height: 2;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+    padding: 5px 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 10px;
 }
