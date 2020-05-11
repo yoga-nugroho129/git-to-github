@@ -1,6 +1,15 @@
-body {
+* {
     background: #eaeaea;
-    font-family: tahoma;
+    font-family: arial;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: salmon;
+    padding : 20px 10px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .container {
@@ -11,14 +20,17 @@ body {
     letter-spacing: 3px;
     box-sizing: border-box;
     padding: 5px 20px;
+    border-radius: 5px;
 }
 
 h1 {
     text-align: center;
+    background-color: white;
 }
 
 p {
     text-align: justify;
+    background-color: white;
     text-indent: 10px;
 }
 
