@@ -1,5 +1,4 @@
 * {
-    background: #eaeaea;
     font-family: arial;
     padding: 0;
     margin: 0;
@@ -10,6 +9,25 @@ nav {
     padding : 20px 10px;
     font-size: 24px;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul li {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: maroon;
+    color: white;
+    border-radius: 3px;
 }
 
 .container {
