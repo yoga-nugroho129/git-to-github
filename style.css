@@ -21,3 +21,20 @@ p {
     text-align: justify;
     text-indent: 10px;
 }
+
+#btn {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    background-color: salmon;
+    border: none;
+    color: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 3px;
+}
+
+#btn:hover {
+    background-color: red;
+    cursor: pointer;
+}
